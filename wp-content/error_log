@@ -1,0 +1,7 @@
+[26-Jun-2020 13:59:20 UTC] PHP Warning:  include_once(/home/x5z71tbrii4m/public_html/wp-config.php): failed to open stream: No such file or directory in /home/x5z71tbrii4m/public_html/wp-content/deleteme.78bf0cc7b475455591fa5e36ccf30a26.php on line 16
+[26-Jun-2020 13:59:20 UTC] PHP Warning:  include_once(): Failed opening '/home/x5z71tbrii4m/public_html/wp-config.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/x5z71tbrii4m/public_html/wp-content/deleteme.78bf0cc7b475455591fa5e36ccf30a26.php on line 16
+[26-Jun-2020 13:59:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/x5z71tbrii4m/public_html/wp-admin/includes/file.php:16
+Stack trace:
+#0 /home/x5z71tbrii4m/public_html/wp-content/deleteme.78bf0cc7b475455591fa5e36ccf30a26.php(16): include_once()
+#1 {main}
+  thrown in /home/x5z71tbrii4m/public_html/wp-admin/includes/file.php on line 16
